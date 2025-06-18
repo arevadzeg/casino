@@ -39,10 +39,12 @@ const SideBar = () => {
 
     return (
         <nav
-            className={`fixed top-0 left-0 flex flex-col p-[10px] transition-all duration-100`}
+            className={`fixed top-0 left-0 flex flex-col p-[10px] transition-all duration-100 `}
             style={{
                 backgroundColor: '#162231',
-                width: isSideBarOpen ? 240 : 60
+                width: isSideBarOpen ? 240 : 60,
+                borderLeft: 1,
+                borderColor: "#273344"
             }}
         >
             <div
